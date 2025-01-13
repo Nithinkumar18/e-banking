@@ -5,7 +5,7 @@
  This is an banking application which serves for all types of requests such as  user login/logout, performing transactions, view balance, update personal information etc.
 
 ##   User Model
- User model has attributes such as userId, userName, email, Password, address and accountNo 
+ User model has attributes such as userId, userName, email, Password, address 
  For the first time user need to regester by providing all the necessary details.
 Once user finishes the initial regestration they can open an account by providing all the required info.
 
