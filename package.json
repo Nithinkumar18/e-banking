@@ -1,0 +1,24 @@
+{
+  "name": "e-banking",
+  "version": "1.0.0",
+  "description": "Backend Service for e-banking",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nithinkumar18/e-banking.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nithinkumar18/e-banking/issues"
+  },
+  "homepage": "https://github.com/Nithinkumar18/e-banking#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.4"
+  }
+}
