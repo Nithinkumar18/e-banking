@@ -15,7 +15,7 @@
 # User can add beneficiary accounts to perform transactions.
 
 ## Transaction Model
-# Transaction model has properties like transaction id, transaction amount, transaction type(debit/credit),transferred to, status, date
+ Transaction model has properties like transaction id, transaction amount, transaction type(debit/credit),transferred to, status, date
 # User can perform transaction to beneficiary accounts.
 # Users can view last transactions based on custom dates
 
