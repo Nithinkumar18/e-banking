@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
-
+const Account = require('../model/account');
 const transactionSchema = new Schema({
 
     amount:{
@@ -16,7 +16,7 @@ const transactionSchema = new Schema({
     },
 
     transferto:{
-        type: Number,
+        type: String,
         required: true
     },
     status:{
@@ -27,6 +27,12 @@ const transactionSchema = new Schema({
     transactiondate:{
         type: Date,
         required: true
+    },
+    account_no:{
+        type: String,
+        required: true,
+        ref: Account
+
     }
 
 });

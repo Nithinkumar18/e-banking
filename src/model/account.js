@@ -5,7 +5,7 @@ const User = require("./user")
 const accountSchema = new Schema({
 
     accountnumber:{
-        type: Number,
+        type: String,
         required: true,
         min: 10,
         max: 10
@@ -21,7 +21,7 @@ const accountSchema = new Schema({
         required: true
     },
 
-    panno:{
+    PAN:{
         type: String,
         required: true
     },
@@ -32,9 +32,9 @@ const accountSchema = new Schema({
     },
    beneficiaries: [],
 
-    cusId:{
+    custId:{
         type: Number,
-        ref: "User"
+        ref: User
     }
 
 

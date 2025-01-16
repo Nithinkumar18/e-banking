@@ -5,7 +5,7 @@ const userSchema = new Schema({
 
 
     custId:{
-        type: Number,
+        type: String,
         required: true,
         min: 6,
         max: 6
