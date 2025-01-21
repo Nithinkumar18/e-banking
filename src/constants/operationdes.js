@@ -2,7 +2,7 @@ const operation_description = {
     USER_REGESTERED: "User Regestration Success",
     INVALID_USER: "valid user doesn't exists with provided customerId",
     USER_INFO_UPDATE: "user personal details updated",
-    OPEN_ACCOUNT: "Congratulations, you have opened your account",
+    OPEN_ACCOUNT: " We couldn't process your request to open new account",
     SUCCESS_INFO: "success",
     FAIL_INFO: "fail",
     ERROR_INFO: "error",
@@ -21,7 +21,7 @@ const operation_description = {
     ACC_NOT_FOUND: "Account doesn't exist with given customerid",
     ACC_ERR_INFO: "Error fetching user account info",
     ACC_CRTE_ERR: "Could not create new account,Please Try Again Later",
-    MINIMUM_BALANCE: "your account should hold minimum balance of 1100, you are not allowed to perform withdraw",
+    MINIMUM_BALANCE: "your account should hold minimum balance of 1100, you are not allowed to perform any transaction",
     TRANSACTION_WITHDRAW_SUCCESS: "Your withdrawal was successful. Thank you for banking with us!",
     TRANSACTION_WITHDRAW_FAIL: "Your withdrawal was Failed ",
     TRANSACTION_DEPOSIT_FAIL: "Your Deposit was Failed",
@@ -31,7 +31,24 @@ const operation_description = {
     TRANSFER_SELF_TYPE: "Within Account Transaction",
     TRANSFER_STATUS: "Success",
     TRANSFER_F_STATUS: "Failed",
-    MINIMUM_BALANCE_NUM:1100
+    CREATE_BENEFICIARY: "New Beneficiary Added!",
+    CREATE_BENEFICIARY_FAIL: "Unable to add beneficiary details",
+    INVALID_USER_ACC: "valid user doesn't exists with provided account details",
+    BENEFICIARY_EXISTS_MSG: "Beneficiary already exists, you are not allowed to add again",
+    MINIMUM_BALANCE_NUM:1100,
+    DUPLICATE_BENEFICIARY: "Beneficiary Duplication",
+    DELETE_BENEFICIARY: "Unlink Beneficiary",
+    UNLINK_BENEFICIARY_FAIL: "Unable to unlink beneficiary",
+    BENEFICIARY_NOTFOUND: "Beneficiary details not found!, Please add before making an transaction",
+    MONEY_TRANSFER_SUCCESS: "We are that fast! Your NEFT was Successful",
+    MONEY_TRANSFER_FAIL: "Your NEFT was unsuccessfull",
+    NEFT_TRANSFER: "NEFT",
+    RECEIVE_NEFT: "NA",
+    NEFT_D_STATUS: "Amount Debited Successfully",
+    NEFT_C_STATUS: "Amount Credited Successfully",
+    TRANSACTION_NOTFOUND: "No recent transactions were found for this account",
+    TRANSACTIONS_VIEW_ERROR: "Unable to view your transactions!",
+    TRANSACTIONS_PERFORMED_PERIOD: "No transactions were done during this time line "
 
 
 }
