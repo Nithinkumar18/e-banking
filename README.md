@@ -2,7 +2,7 @@
 
 
 ## Application Flow
- This is an banking application which serves for all types of requests such as  user login/logout, performing transactions, view balance, update personal information etc.
+ This is an banking application which serves for all types of requests such as  user login, performing transactions, view balance, update personal information etc.
 
 ##   User Model
  User model has attributes such as userId, userName, email, Password, address 
